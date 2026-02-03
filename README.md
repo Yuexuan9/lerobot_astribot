@@ -140,9 +140,9 @@ CUDA_VISIBLE_DEVICES=4,5,6,7 accelerate launch --multi_gpu \
 3. **GPU 内存**: 训练时根据 GPU 内存调整 `batch_size` 和 `num_processes`
 4. **WandB 配置**: 首次使用需要登录 `wandb login`
 
-## 平台集成
+## 推理
 
-该工具也支持平台自动转换为 LeRobot 3.0 格式，无需手动执行转换脚本。
+https://github.com/Yuexuan9/lerobot_grpc_inference
 
 ## 问题排查
 
