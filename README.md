@@ -43,10 +43,7 @@ pip install lerobot
 将所有 episodes 合并到单个数据集：
 
 ```bash
-python /root/astribot_lerobot_converter/convert.py \
-    /root/astribot_raw_datasets \
-    -o ./astribot_dataset \
-    --repo-id astribot/demo
+python convert.py /xxx -o ./output/xxx --repo-id astribot/[repo-id]
 ```
 
 
