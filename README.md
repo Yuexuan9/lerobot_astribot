@@ -110,19 +110,6 @@ CUDA_VISIBLE_DEVICES=4,5,6,7 accelerate launch --multi_gpu \
 | `--num_workers` | 数据加载线程数 |
 | `--wandb.enable` | 启用 Weights & Biases 日志 |
 
-## 目录结构
-
-```
-astribot_lerobot_converter/
-├── convert.py              # 主转换脚本
-├── convert_tar.py          # tar 包转换脚本
-└── examples/
-    └── A01_test.py         # 数据回放测试脚本
-
-astribot_raw_datasets/      # 原始 ROS Bag 数据
-astribot_dataset/           # 转换后的 LeRobot 格式数据
-outputs/                    # 训练输出（模型检查点）
-```
 
 ## 数据格式详解
 
