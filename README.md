@@ -142,7 +142,7 @@ CUDA_VISIBLE_DEVICES=4,5,6,7 accelerate launch --multi_gpu \
 
 ## 推理
 
-https://github.com/Yuexuan9/lerobot_grpc_inference
+[lerobot_grpc_inference](https://github.com/Yuexuan9/lerobot_grpc_inference)
 
 ## 问题排查
 
